@@ -27,7 +27,7 @@ const Navbar = () => {
                         <li>
                             <FontAwesomeIcon icon={faCartShopping} />
                         </li>
-                        <li>Contact Us</li>
+                        <li>Contact</li>
                     </div>
                 </div>
             </div>

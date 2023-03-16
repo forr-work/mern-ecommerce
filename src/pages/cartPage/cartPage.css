@@ -1,0 +1,38 @@
+.cart {
+    /* background-color: rgb(214, 211, 211); */
+    overflow: hidden;
+}
+
+.cartContainer {
+    margin-left: 30px;
+    /* border: 2px solid crimson; */
+
+
+    background-color: #fff;
+    width: 70vw;
+    margin-top: 30px;
+
+}
+
+.cart>h1 {
+
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.buyBtn {
+    height: 30px;
+    width: 80px;
+    font-weight: 700;
+    font-family: sans-serif;
+    background-color: rgb(72, 72, 248);
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 50px;
+    margin-left: 50%;
+}
+.buyBtn:hover {
+   background-color: rgb(72, 72, 204);
+}
