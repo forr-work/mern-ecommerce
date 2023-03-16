@@ -1,0 +1,106 @@
+.navbar {
+    margin: 0;
+    padding: 0;
+    height: 8vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #2056ab;
+
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+/* logo */
+.navContainer .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navContainer .logo:hover {
+    cursor: pointer;
+}
+
+/* search Input styling  */
+.menu-search {
+    padding-left: 10px;
+    border-radius: 60px;
+    position: relative;
+}
+
+.menu-search>input {
+    width: 45vw;
+    height: 5.5vh;
+    padding: 0 20px;
+    font-size: 18px;
+    border: none;
+}
+
+.searchBtn {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color:#2056ab;
+    font-weight: bold;
+}
+
+.menu-search>input::placeholder {
+    font-size: 20px;
+}
+
+.menu-search>input:focus {
+    outline: none;
+    border: none;
+}
+
+/* menus styling  */
+.menus {
+    display: flex;
+}
+
+.menu-items {
+    display: flex;
+}
+
+.auth {
+    display: flex;
+}
+
+.auth>li {
+    list-style: none;
+    color: white;
+    font-weight: 500;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.auth>li:hover {
+    color: rgb(220, 218, 218);
+    cursor: pointer;
+
+}
+
+.others {
+    display: flex;
+}
+
+.others>li {
+    list-style: none;
+    color: white;
+    font-weight: 500;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.others>li:hover {
+    color: rgb(220, 218, 218);
+    cursor: pointer;
+}
